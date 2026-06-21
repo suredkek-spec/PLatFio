@@ -1,20 +1,20 @@
 import { motion } from 'framer-motion';
 
 const escrowSteps = [
-  'Reserve asset and verify buyer identity',
-  'Hold EUR / USDC / USDT in secure escrow',
-  'Transfer domain, codebase and analytics access',
-  'Release funds after successful ownership migration',
+  'Резервирование актива и проверка покупателя',
+  'Холдирование EUR / USDC / USDT в защищённом escrow',
+  'Передача домена, исходного кода и доступа к аналитике',
+  'Разблокировка средств после завершения передачи прав',
 ];
 
 export function EscrowCheckout() {
   return (
     <section className="glass-panel stack-24">
       <div>
-        <p className="eyebrow">Escrow Checkout</p>
+        <p className="eyebrow">Безопасная сделка</p>
         <h1 className="section-title small">Безопасная сделка с холдированием средств до полной передачи актива.</h1>
         <p className="section-copy">
-          PLatFio поддерживает EUR и stablecoin settlement. Деньги остаются в холде до переноса домена, репозитория,
+          PLatFio поддерживает расчёты в EUR и стейблкоинах. Средства остаются в холде до переноса домена, репозитория,
           аналитики и платёжных доступов на покупателя.
         </p>
       </div>

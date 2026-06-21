@@ -33,21 +33,21 @@ export function AssetDetail() {
 
         <div className="detail-sidebar">
           <div className="metric-card large">
-            <span>Asking price</span>
+            <span>Стоимость актива</span>
             <strong>€{asset.priceEur.toLocaleString('en-US')}</strong>
           </div>
           <div className="metric-card large">
-            <span>Monthly revenue</span>
+            <span>Выручка в месяц</span>
             <strong>€{asset.monthlyRevenueEur.toLocaleString('en-US')}</strong>
           </div>
           <div className="metric-card large">
-            <span>Traffic / month</span>
+            <span>Трафик в месяц</span>
             <strong>{asset.monthlyTraffic.toLocaleString('en-US')}</strong>
           </div>
 
           <div className="button-row">
             <button className="gold-button" type="button" onClick={() => navigateWithinTab('/checkout')}>
-              Перейти к Escrow Checkout
+              Перейти к безопасной сделке
             </button>
             <button className="ghost-button" type="button" onClick={() => navigateWithinTab('/analytics')}>
               Смотреть аналитику

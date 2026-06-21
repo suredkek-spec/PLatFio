@@ -11,9 +11,19 @@ export function HomeDashboard() {
 
   return (
     <div className="stack-32">
+      <div className="mobile-brand-plaque glass-panel">
+        <div className="mobile-brand-lockup">
+          <div className="mobile-brand-mark">PL</div>
+          <div>
+            <p className="eyebrow">PlatFio</p>
+            <h3>Премиальный сайт для продажи веб-сайтов и безопасных digital asset.</h3>
+          </div>
+        </div>
+      </div>
+
       <motion.section className="hero-grid glass-panel" variants={staggerParent} initial="initial" animate="animate">
         <motion.div variants={fadeUp}>
-          <p className="eyebrow">Home</p>
+          <p className="eyebrow">Главная</p>
           <h1 className="section-title">Продажа веб-сайтов, web design и digital assets с уровнем quiet luxury.</h1>
           <p className="section-copy">
             PLatFio — это премиальный сайт-витрина и студия упаковки цифровых активов. Мы проектируем, редизайним
@@ -32,15 +42,15 @@ export function HomeDashboard() {
 
         <motion.div className="stats-grid" variants={fadeUp}>
           <article className="metric-card">
-            <span>24/h volume</span>
+            <span>Объём за 24 часа</span>
             <strong>${marketActivity.volumeUsd.toLocaleString('en-US')}</strong>
           </article>
           <article className="metric-card">
-            <span>Escrow protected</span>
+            <span>Защищено через escrow</span>
             <strong>{marketActivity.escrowProtected}</strong>
           </article>
           <article className="metric-card">
-            <span>Active buyers</span>
+            <span>Активные покупатели</span>
             <strong>{marketActivity.activeBuyers}</strong>
           </article>
         </motion.div>
@@ -83,7 +93,7 @@ export function HomeDashboard() {
                   exit={{ opacity: 0, y: -12 }}
                   transition={{ type: 'spring', stiffness: 130, damping: 18 }}
                 >
-                  <p className="phone-copy">Animated live preview</p>
+                  <p className="phone-copy">Анимированное превью</p>
                   <strong>{selectedAsset.title}</strong>
                   <span>{selectedAsset.preview}</span>
                 </motion.div>
@@ -124,7 +134,7 @@ export function HomeDashboard() {
       <motion.section className="glass-panel feature-grid" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
         <article>
           <ShieldCheck size={18} />
-          <h3>Escrow Checkout</h3>
+          <h3>Безопасная сделка</h3>
           <p>Холдируем EUR и USDC/USDT до полной перерегистрации домена, доступов и исходного кода.</p>
           <button className="inline-link" type="button" onClick={() => navigateWithinTab('/checkout')}>
             Открыть secure flow <ArrowRight size={16} />
@@ -132,7 +142,7 @@ export function HomeDashboard() {
         </article>
         <article>
           <ChartNoAxesCombined size={18} />
-          <h3>Asset Analytics</h3>
+          <h3>Аналитика активов</h3>
           <p>Показываем revenue, traffic и unit-economics, чтобы покупатель видел реальную стоимость актива.</p>
           <button className="inline-link" type="button" onClick={() => navigateWithinTab('/analytics')}>
             Смотреть аналитику <ArrowRight size={16} />
@@ -140,7 +150,7 @@ export function HomeDashboard() {
         </article>
         <article>
           <BadgeEuro size={18} />
-          <h3>Catalog & ROI</h3>
+          <h3>Каталог и ROI</h3>
           <p>Фильтруйте активы по нише, цене, трафику и сроку окупаемости под ваш инвестиционный профиль.</p>
           <button className="inline-link" type="button" onClick={() => navigateWithinTab('/catalog')}>
             Перейти в каталог <ArrowRight size={16} />

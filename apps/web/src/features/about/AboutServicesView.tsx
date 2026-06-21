@@ -1,14 +1,14 @@
 const services = [
-  'Website acquisition packaging',
-  'Premium landing pages and commerce rebuilds',
-  'SaaS product websites and growth loops',
-  'Analytics instrumentation and conversion architecture',
+  'Упаковка и подготовка сайта к продаже',
+  'Премиальные лендинги и редизайн коммерческих сайтов',
+  'Сайты для SaaS-продуктов и growth-сценарии',
+  'Настройка аналитики и архитектуры конверсии',
 ];
 
 export function AboutServicesView() {
   return (
     <section className="glass-panel stack-24">
-      <p className="eyebrow">Services</p>
+      <p className="eyebrow">Сервисы</p>
       <h1 className="section-title small">Сервисы, которыми мы усиливаем ценность актива.</h1>
       <div className="detail-highlights">
         {services.map((service) => (

@@ -23,32 +23,32 @@ export const marketActivity = {
 export const services = [
   {
     id: 'wealth-sites',
-    title: 'Digital Wealth Websites',
+    title: 'Премиальные веб-сайты',
     text: 'Проектируем и продаём премиальные сайты, где дизайн, доверие и конверсия работают как единый актив.',
   },
   {
     id: 'saas-launch',
-    title: 'SaaS Launch Systems',
+    title: 'SaaS-сайты и launch-системы',
     text: 'Создаём витрины и платформы с аналитикой, онбордингом, оплатой и понятной unit-экономикой.',
   },
   {
     id: 'brand-rebuild',
-    title: 'Luxury Brand Rebuild',
+    title: 'Luxury-редизайн бренда',
     text: 'Пересобираем digital-образ бренда: структура, tone of voice, дизайн-система и продающий опыт.',
   },
 ];
 
 export const differentiators = [
-  'Ultra-minimalist premium interface in quiet luxury aesthetics',
-  'Website sales, redesign and monetization strategy in one flow',
-  'Analytics-led packaging with ROI, traffic and revenue transparency',
-  'Escrow-first closing process with domain and access transfer control',
+  'Ультра-минималистичный премиальный интерфейс в эстетике quiet luxury',
+  'Продажа сайтов, редизайн и стратегия монетизации в одной системе',
+  'Упаковка на основе аналитики: ROI, трафик и прозрачность выручки',
+  'Escrow-first сделка с контролем передачи домена и доступов',
 ];
 
 export const phonePreviews = [
-  'Quiet luxury commerce',
-  'Investor-grade acquisition flow',
-  'High-trust conversion design',
+  'Тихая роскошь в digital commerce',
+  'Инвестиционный сценарий покупки сайта',
+  'Дизайн, усиливающий доверие и конверсию',
 ];
 
 export const assets: MarketAsset[] = [
@@ -62,9 +62,9 @@ export const assets: MarketAsset[] = [
     monthlyTraffic: 96000,
     roiMonths: 11,
     description: 'Премиальный e-commerce актив с глубокой SEO-матрицей, clean checkout и высокой долей repeat-заказов.',
-    preview: 'Polished storefront / 4.7% CVR / 61% returning users',
-    highlights: ['Stripe-ready checkout', 'GA4 event model', 'EU escrow pipeline'],
-    growth: '+18.4% YoY revenue',
+    preview: 'Полированная витрина / 4.7% CVR / 61% returning users',
+    highlights: ['Checkout на Stripe', 'GA4 event model', 'Escrow-сценарий для Европы'],
+    growth: '+18.4% рост выручки год к году',
   },
   {
     id: '2',
@@ -76,9 +76,9 @@ export const assets: MarketAsset[] = [
     monthlyTraffic: 42000,
     roiMonths: 13,
     description: 'SaaS-платформа для luxury service bookings с устойчивым MRR и низким churn.',
-    preview: 'Subscription dashboard / 7 countries / 84% renewal rate',
-    highlights: ['MRR cohorts', 'Role-based admin', 'Fast onboarding'],
-    growth: '+11.2% MRR MoM',
+    preview: 'Подписочная панель / 7 стран / 84% продления',
+    highlights: ['MRR-коhорты', 'Ролевая админ-панель', 'Быстрый онбординг'],
+    growth: '+11.2% рост MRR месяц к месяцу',
   },
   {
     id: '3',
@@ -90,9 +90,9 @@ export const assets: MarketAsset[] = [
     monthlyTraffic: 28000,
     roiMonths: 15,
     description: 'Контентно-технологический fintech asset с премиальным UX, высокой LTV и органическим трафиком.',
-    preview: 'Private dashboard / lead scoring / multilingual flow',
-    highlights: ['Analytics enrichment', 'KYC-ready forms', 'High-intent leads'],
-    growth: '+22.7% lead value',
+    preview: 'Закрытый кабинет / lead scoring / multilingual flow',
+    highlights: ['Расширенная аналитика', 'Формы с готовностью к KYC', 'Высокоинтентные лиды'],
+    growth: '+22.7% рост ценности лида',
   },
   {
     id: '4',
@@ -104,9 +104,9 @@ export const assets: MarketAsset[] = [
     monthlyTraffic: 35000,
     roiMonths: 10,
     description: 'Luxury service website с editorial-дизайном и высокой долей заявок из органики.',
-    preview: 'Editorial layout / concierge lead flow / high-ticket forms',
-    highlights: ['Narrative commerce', 'Performance SEO', 'CRM lead sync'],
-    growth: '+27% qualified inquiries',
+    preview: 'Редакционный стиль / concierge flow / high-ticket формы',
+    highlights: ['Narrative commerce', 'Performance SEO', 'Синхронизация лидов с CRM'],
+    growth: '+27% квалифицированных обращений',
   },
 ];
 
@@ -122,7 +122,7 @@ export const contactChannels = [
     href: 'mailto:concierge@platfio.com',
   },
   {
-    label: 'Phone',
+    label: 'Телефон',
     value: '+371 20 480 880',
     href: 'tel:+37120480880',
   },

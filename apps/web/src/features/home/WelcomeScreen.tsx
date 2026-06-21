@@ -9,7 +9,7 @@ export function WelcomeScreen() {
   return (
     <section className="welcome-screen glass-panel hero-grid">
       <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-        <p className="eyebrow">Curated website acquisitions</p>
+        <p className="eyebrow">Премиальная продажа веб-сайтов</p>
         <h1 className="hero-title">
           Тихая роскошь
           <br />
@@ -22,7 +22,7 @@ export function WelcomeScreen() {
 
         <div className="hero-actions">
           <motion.button className="gold-button" whileTap={{ scale: 0.97 }} onClick={() => navigateWithinTab('/')}>
-            Войти в платформу
+            Перейти на сайт
             <ArrowRight size={18} />
           </motion.button>
           <button className="ghost-button" type="button" onClick={() => navigateWithinTab('/contacts/apply')}>
@@ -38,9 +38,9 @@ export function WelcomeScreen() {
         transition={{ type: 'spring', stiffness: 120, damping: 18 }}
       >
         <div className="metric-orb" />
-        <p>24/h Live Market Activity</p>
+        <p>Активность рынка за 24 часа</p>
         <strong>${marketActivity.volumeUsd.toLocaleString('en-US')}</strong>
-        <span>{marketActivity.dealsCount} secured deals · {marketActivity.activeBuyers} active buyers</span>
+        <span>{marketActivity.dealsCount} защищённых сделок · {marketActivity.activeBuyers} активных покупателей</span>
       </motion.div>
     </section>
   );
