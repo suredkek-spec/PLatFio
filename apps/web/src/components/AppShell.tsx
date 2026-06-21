@@ -19,10 +19,10 @@ export function AppShell({ children }: PropsWithChildren) {
       <aside className="sidebar glass-panel">
         <div>
           <div className="brand-lockup">
-            <div className="brand-mark">PF</div>
+            <div className="brand-mark">PL</div>
             <div>
-              <p className="brand-caption">Quiet luxury marketplace</p>
-              <h1>PLatFio</h1>
+              <p className="brand-caption">PlatFio</p>
+              <h1>Премиальный сайт для продажи веб-сайтов и безопасных digital asset</h1>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export function AppShell({ children }: PropsWithChildren) {
         </div>
 
         <div className="sidebar-footnote stack-24">
-          <p>Escrow-first сделка, curated catalog, premium design and direct Telegram contact.</p>
+          <p>Безопасная сделка, curated catalog, premium design и прямой контакт в Telegram.</p>
           <button className="gold-button sidebar-cta" type="button" onClick={() => navigateWithinTab('/contacts/apply')}>
             Оставить заявку
           </button>
@@ -59,7 +59,7 @@ export function AppShell({ children }: PropsWithChildren) {
       <div className="viewport-shell">
         <header className="topbar glass-panel">
           <div>
-            <p className="eyebrow">Premium digital assets</p>
+            <p className="eyebrow">Премиальные цифровые активы</p>
             <h2>{tabLabels[activeTab]}</h2>
           </div>
 

@@ -11,16 +11,6 @@ export function HomeDashboard() {
 
   return (
     <div className="stack-32">
-      <div className="mobile-brand-plaque glass-panel">
-        <div className="mobile-brand-lockup">
-          <div className="mobile-brand-mark">PL</div>
-          <div>
-            <p className="eyebrow">PlatFio</p>
-            <h3>Премиальный сайт для продажи веб-сайтов и безопасных digital asset.</h3>
-          </div>
-        </div>
-      </div>
-
       <motion.section className="hero-grid glass-panel" variants={staggerParent} initial="initial" animate="animate">
         <motion.div variants={fadeUp}>
           <p className="eyebrow">Главная</p>
