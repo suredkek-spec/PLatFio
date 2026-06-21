@@ -1,0 +1,22 @@
+name: PlatFio
+options:
+  bundleIdPrefix: com.platfio
+  deploymentTarget:
+    iOS: '17.0'
+packages: {}
+targets:
+  PlatFio:
+    type: application
+    platform: iOS
+    sources:
+      - path: PlatFio
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.platfio.app
+      INFOPLIST_FILE: PlatFio/App/Info.plist
+      SWIFT_VERSION: 5.10
+    info:
+      path: PlatFio/App/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
